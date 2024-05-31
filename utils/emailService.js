@@ -1,7 +1,5 @@
 const nodemailer = require("nodemailer");
 const {email,password} = require('../config');
-const password = config.get('password');
-
 // create reusable transporter object using the default SMTP transport
 let EmailService = nodemailer.createTransport({
     service: 'gmail',
