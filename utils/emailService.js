@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const config = require('config');
+const {email,password} = require('../config');
 const email = config.get('email');
 const password = config.get('password');
 
